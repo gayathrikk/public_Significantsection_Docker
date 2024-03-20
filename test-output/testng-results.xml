@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-20T09:32:37 IST" name="Default suite" finished-at="2024-03-20T09:32:39 IST" duration-ms="2065">
+  <suite started-at="2024-03-20T10:34:56 IST" name="Default suite" finished-at="2024-03-20T10:34:59 IST" duration-ms="2508">
     <groups>
     </groups>
-    <test started-at="2024-03-20T09:32:37 IST" name="Default test" finished-at="2024-03-20T09:32:39 IST" duration-ms="2065">
-      <class name="com.test.DockerStatusTest.SignificantSection_Docker">
-        <test-method signature="pingWeb()[pri:1, instance:com.test.DockerStatusTest.SignificantSection_Docker@4229bb3f]" started-at="2024-03-20T09:32:37 IST" name="pingWeb" finished-at="2024-03-20T09:32:37 IST" duration-ms="67" status="PASS">
+    <test started-at="2024-03-20T10:34:56 IST" name="Default test" finished-at="2024-03-20T10:34:59 IST" duration-ms="2508">
+      <class name="com.test.DockerStatusTest.public_significantsection_Docker">
+        <test-method signature="SignificantProcess_Status()[pri:1, instance:com.test.DockerStatusTest.public_significantsection_Docker@7fee8714]" started-at="2024-03-20T10:34:56 IST" name="SignificantProcess_Status" finished-at="2024-03-20T10:34:59 IST" duration-ms="2487" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- pingWeb -->
-        <test-method signature="containerStatus()[pri:2, instance:com.test.DockerStatusTest.SignificantSection_Docker@4229bb3f]" started-at="2024-03-20T09:32:37 IST" name="containerStatus" finished-at="2024-03-20T09:32:39 IST" duration-ms="1978" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- containerStatus -->
-      </class> <!-- com.test.DockerStatusTest.SignificantSection_Docker -->
+        </test-method> <!-- SignificantProcess_Status -->
+      </class> <!-- com.test.DockerStatusTest.public_significantsection_Docker -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
